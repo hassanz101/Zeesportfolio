@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Zeinab Hassan Software Developer</title>
+    <link rel="icon" href="pictures/zeelogo.png">
+    <link rel="stylesheet" href="vendors/angular-material.min.css">
+    <script src="vendors/angular.min.js" charset="utf-8"></script>
+    <script src="vendors/angular-route.min.js" charset="utf-8"></script>
+    <script src="scripts/client.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Adamina" rel="stylesheet">
+    <base href="/">
+  </head>
+  <body ng-app="myApp">
+      <header>
+            <img class="zeelogo" src="pictures/zeelogo.png">
+            <nav class="nav">
+              <a href="/" class="tabs">Home</a>
+              <a href="/aboutme" class="section">About</a>
+              <a href="/profile" class="section">Profile</a>
+              <a href="/contact" class="section">Contact</a>
+            </nav>
+      </header>
+    <div>
+      <ng-view>
+      </ng-view>
+    </div>
+    <footer>
+      <a href="https://www.linkedin.com/in/zeinab-hassan-477285140/" target="_blank"><img src="pictures/linkedin.png" alt="Linkedin Logo" class="social-icon"></a>
+      <a href="https://github.com/hassanz101" target="_blank"><img src="pictures/github.png" alt="Github logo" class="social-icon"></a>
+      <a href="mailto:zeinab.hassan101@gmail.com"><img src="pictures/email.png" alt="Mail logo" class="social-icon"></a>
+      <p>&copy; Zeinab Hassan 2017</p>
+    </footer>
+  </body>
+</html>

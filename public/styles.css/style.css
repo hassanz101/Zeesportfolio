@@ -1,0 +1,156 @@
+
+body {
+  font-family: 'Adamina', serif;
+  /*line-height: 1.8;*/
+  font-size: 1.5em;
+  color: white;
+  background: url(https://watchstreetconsulting.com/wp-content/uploads/2015/04/web_design_desk2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+  /*background: #f2f2f2;*/
+}
+
+h2  {
+  font-weight: bold;
+}
+
+.zee-logo{
+  text-align: center;
+  padding: 15px 5;
+  margin-left: 20px 10 0;
+}
+
+.nav {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.section {
+  padding: 15px 15px;
+}
+
+.home {
+  text-align: center;
+}
+
+.link {
+  /*display: block;*/
+  height: 40vmin;
+  width: 60vmin;
+  margin: 0 auto 30px;
+  border-radius: 10%;
+  border: 3px solid white;
+}
+
+
+/*About me*/
+
+
+.profilepic {
+  border-radius: 60%;
+height: 45vmin;
+width: 55vmin;
+text-align: center;
+right: 0px;
+  width: 300px;
+  border: 3px solid white;
+  padding: 10px;
+
+}
+.strengths{
+  color: #c29e4f;
+}
+/*border-radius: 50%;
+   width: 100%;
+   padding-bottom: 100%;
+   background: #fff;
+   position:relative;
+   overflow:hidden;
+   z-index:2;*/
+
+.tech {
+  height: 15vmin;
+  width: 15vmin;
+  padding: 1vmin 1vmin;
+}
+
+
+.row {
+  margin: 10px 10px;
+}
+
+/*my profile*/
+
+
+.profile-image {
+  height: 350px;
+  width: 500px;
+  border: 2px solid #f2f2f2;
+}
+
+
+/*Contact Me*/
+
+
+.contact-me {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-me a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-me li.phone a {
+  background-image: url('/pictures/telephone.png');
+}
+
+.contact-me li.Gmail a {
+  background-image: url('/pictures/email.png');
+}
+
+.contact-me li.LinkedIn a {
+  background-image: url('/pictures/linkedin.png');
+}
+
+.contact-me li.GitHub a {
+  background-image: url('/pictures/github.png');
+}
+
+
+/*Footer*/
+
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
