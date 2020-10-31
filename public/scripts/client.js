@@ -2,7 +2,7 @@ var myApp = angular.module('myApp', ['ngRoute']);
 // Angular configuration (routes)
 myApp.config(function($routeProvider, $locationProvider) {
   $routeProvider.when('/', {
-    template: '<div class="home"><h1>Zeinab Hassan</h1><h3>Prime Digital Academy | Full-Stack Software Engineer</h3><h3>Augsburg College | Communications Major</h3><img class="link" src="pictures/zeepic.jpg"></div>',
+    template: '<div class="home"><h1>Zeinab Hassan</h1><h3>Prime Digital Academy | Full-Stack Software Engineer</h3><h3>Augsburg College | Business Major</h3><img class="link" src="pictures/zeepic.jpg"></div>',
     controller: ''
   }).when('/aboutme', {
     templateUrl: 'views/aboutme.html',
